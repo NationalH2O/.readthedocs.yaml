@@ -1,0 +1,117 @@
+README.rst
+    pyproject.toml
+
+
+        Python project metadata that makes it installable. Useful for automatic documentation generation from sources.
+    lumache.py
+
+
+        Source code of the fictional Python library.
+    docs/
+
+
+        Directory holding all the fictional Python library documentation in reStructuredText, the Sphinx configuration docs/source/conf.py and the root document docs/source/index.rst.
+
+
+GitHub template for the tutorial
+
+
+GitHub template for the tutorial
+Creating a Read the Docs account
+
+
+To create a Read the Docs account: navigate to the Sign Up page and choose the option Sign up with GitHub. On the authorization page, click the green Authorize readthedocs button.
+GitHub authorization page
+
+
+GitHub authorization page
+
+
+Note
+
+
+Read the Docs needs elevated permissions to perform certain operations that ensure that the workflow is as smooth as possible, like installing webhooks. If you want to learn more, check out Permissions for connected accounts.
+
+
+After that, you will be redirected to Read the Docs to confirm your e-mail and username. Click the Sign Up » button to create your account and open your dashboard.
+
+
+When you have clicked the link in your emaill from Read the Docs to “verify your email address” and finalize the process, your Read the Docs account will be ready to create your first project.
+Read the Docs empty dashboard
+
+
+Welcome to your Read the Docs dashboard!
+Importing the project to Read the Docs
+
+
+To import your GitHub project to Read the Docs:
+
+
+    Click the Import a Project button on your dashboard.
+
+
+    Click the ➕ button to the right of your rtd-tutorial project. If the list of repositories is empty, click the 🔄 button.
+    Import projects workflow
+
+
+    Import projects workflow
+
+
+    Enter some details about your Read the Docs project:
+
+
+    Name
+
+
+        The name of the project, used to create a unique subdomain for each project. so it is better if you prepend your username, for example {username}-rtd-tutorial.
+    Repository URL
+
+
+        The URL that contains the documentation source. Leave the automatically filled value.
+    Default branch
+
+
+        Name of the default branch of the project, leave it as main.
+
+
+    Then click the Next button to create the project and open the project home.
+
+
+You just created your first project on Read the Docs! 🎉
+Project home
+
+
+Project home
+Checking the first build
+
+
+Read the Docs will build your project documentation right after you create it.
+
+
+To see the build logs:
+
+
+    Click the Your documentation is building link on the project home.
+
+
+        If the build has not finished by the time you open it, you will see a spinner next to a “Installing” or “Building” indicator, meaning that it is still in progress.
+
+
+        If the build has finished, you’ll see a green “Build completed” indicator, the completion date, the elapsed time, and a link to the generated documentation.
+    First successful documentation build
+
+
+    First successful documentation build
+
+
+    Click on View docs to see your documentation live!
+
+
+HTML documentation live on Read the Docs
+
+
+HTML documentation live on Read the Docs
+
+
+
+Built with Sphinx using a theme provided by Read the Docs. 
